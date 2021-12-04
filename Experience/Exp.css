@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+
+/* navbar */
+.main-navbar{
+ font-family: Arial, Helvetica, sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: relative;
+}
+.navicon{
+    color: white;
+    
+    display: flex;
+    padding: 4vw;
+    width: 35vw;
+    justify-content: space-evenly;
+}
+.h-mainicon{
+    width: 4vw;
+    
+}
+.h-mainicon :hover{
+    cursor: pointer;
+}
+.navhead li a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+.navhead li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.navtext{
+    list-style-type: none;
+    
+}
+.navhead li{
+    text-decoration: none;
+    align-items: center;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    justify-content: space-around;
+}
+.navhead{
+display: flex;
+text-decoration: none;
+list-style-type: none;
+}
+.menuicon{
+    width: 2vw;
+}
+.menuicon:hover{
+    cursor: pointer;
+}
+.hdmaintext{
+    display: flex;
+    flex-direction: column;
+}
+.menubutton{
+    width: 20px;
+}
+.menubutton:hover{
+    cursor: pointer;
+}
+
+.mainvedio{
+
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.hvideo{
+    object-fit: cover;
+    width: fit-content;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* middle */
+.middlebar{
+    position: relative;
+    top: 20vh;
+}
+.a-text{
+    
+    left: 20vw;
+    position: relative;
+    width: fit-content;
+}
+.a-text h2{
+    font-size: 30px;
+    align-items: center;
+    padding: 51px;
+}
+.a-pic img{
+   
+    width: 50vw;
+    height: 90vh;
+}
+@media  (min-width:300px) and (max-width: 600px){
+    .main-container{
+        height: fit-content;
+    }
+    .a-text h2 {
+        font-size: 30px;
+        
+        padding: 2px;
+        width: 55vw;
+    }
+    .navhead{
+        display: none;
+    }
+    .menuicon{
+        width: 5vw;
+    }
+    .h-mainicon{
+        width: 14vw;
+    }
+    .navicon {
+        color: white;
+        width: 100vw;
+        padding: 4vw;
+    }
+    #text{
+        height: 77vh;flex-direction: column;
+        align-items: baseline;
+    width: 39vw;
+    padding: 0;
+    display: flex;
+    }
+}
+
+    
+
+.a-pic{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+.a-para{
+    font-size: 20px;
+    position: relative;
+    padding: 20px;
+}
+.a-para h2{
+    padding: 40px;
+}
+.a-para h5{
+    padding: 40px;
+}
+.b{
+    background: #000;
+}
+.b-pic{
+    width: 20px;
+}
+.b-text{
+    font-size: 20px;
+}
+.c{
+    font-size: 20px;
+}
+.c-pic{
+    width: 71vw;
+    height: 100vh;
+}
+.c-text{
+    
+    font-size: 20px;
+    position: relative;
+    background-color:white;
+    top: -70vh;
+    left: 65vw;
+    width: fit-content;
+    height: 50vh;
+}
+
+.d-pic{
+    width: 69vw;
+    height: 100vh;
+    position: relative;
+    left: 29vw
+}
+.d-text{
+    font-size: 20px;
+    
+    position: relative;
+    background-color: white;
+    top: -80vh;
+    left: 12vh;
+    width: fit-content;
+}
+
+.e-pic{
+    
+    width: 69vw;
+    height: 100vh;
+    position: relative;
+    
+}
+.e-text{
+    font-size: 20px;
+    
+    position: relative;
+    background-color: white;
+    top: -80vh;
+    left: 64vw;
+    width: fit-content;
+}
+
+.f-pic{
+    
+    width: 98vw;
+    height: 100vh;
+    position: relative;
+}
+.f-text{
+    font-size: 30px;
+        position: relative;
+    top: -65vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    color: white;
+    left: 34vw;
+
+}
+.pics{
+    background-color: #f1efed;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 60vh;
+    width: 30vw;
+    padding: 41px;
+}
+.f-ltext{
+    
+    padding: 10px;
+    display: block;
+    width: fit-content;
+    border: 3px solid white;
+    position: relative;
+    
+}
+#Exp{
+    padding: 10px;
+    display: block;
+    border-color: black;
+    border: 3px solid black;
+    position: relative;
+    top: 40px;
+}
+#Exp:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footermain{
+    color: white;
+    display: flex;
+
+    list-style-type: none;
+    background-color: rgb(82, 73, 82);
+}
+@media  (min-width:300px) and (max-width: 600px){
+    .footermain{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footicontent{
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
+.navitem{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0;
+    
+}
+.headitem{
+    padding: 0px;
+    align-content: center;
+}
+#navicon{
+    display: none;
+}
+       .mainnavbar{
+           padding: 0;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       } 
+       .mainbar{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+        
+    
+
+    
+
+    
+}
+.footicontent{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 70vw;
+    
+}
+.footicontent img{
+    width: 7vh;
+    position: relative;
+    top: 3vw;
+    right: -3vw;
+    
+}
+.footnav ul li{
+    font-size: 26px;
+    list-style-type: none;
+    padding: 20px;
+}
+div.footnavtext ul li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+div.footnavtext ul li{
+    list-style-type: none;
+}
+div .footnavtext{
+    padding: 20px;
+}
+
+.lasttext{
+    color: white;
+    background-color: rgb(82, 73, 82);
+    height: 20vh;
+    padding: 20px;
+}
+div .foottext{
+    display: flex;
+    flex-direction: column;  
+    padding: 25px;
+}
+div .foottext a{
+    padding: 20px;
+}
+.navfoottext{
+    display: flex;
+    list-style-type: none;
+}
+div .footnav{
+    padding: 20px;
+}
+div .footnavtext ul li{
+    padding: 20px;
+}
+
+div .footnav ul :hover{
+    text-decoration: underline ;
+ cursor: pointer;
+
+
+}
+div.foottext :hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 21px;
+}
+.mainfooter{
+    position: relative;
+    top: 20vh;
+
+}

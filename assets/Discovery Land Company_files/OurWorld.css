@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Main-container{
+    width: 100%;
+    height: 230vh;
+    background-color: rgb(32, 34, 34);
+}
+.mainbar{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 23px;
+    
+}
+.mainicon{
+    width: 6vh;
+    }
+.headitem{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    padding: 20px;
+}
+#navicon{
+    width: 4vw;
+}
+.mainnavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.hdmaintext{
+    padding: 20px;
+}
+.navitem{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.pics{
+    color: white;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+}
+.pic{
+    width: 23vw;
+    height: 30vh;
+}
+#pic1{
+
+    padding: 9px;
+}
+.footermain{
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: rgb(82, 73, 82);
+}
+.footicon img{
+    width: 7vh;
+    position: absolute;
+}
+.footnav ul li{
+    font-size: 26px;
+    list-style-type: none;
+    padding: 20px;
+}
+div.footnavtext ul li a{
+    color: tomato;
+    padding: 20px;
+}
+div.footnavtext ul li{
+    list-style-type: none;
+}
+div .footnavtext{
+    padding: 20px;
+}
+
+.lasttext{
+    color: white;
+    background-color: rgb(82, 73, 82);
+    height: 20vh;;
+}
+div .foottext{
+    display: flex;
+    flex-direction: column;  
+    padding: 25px;
+}
+div .foottext a{
+    padding: 20px;
+}
+.navfoottext{
+    display: flex;
+    list-style-type: none;
+}
+div .footnav{
+    padding: 20px;
+}
+div .footnavtext ul li{
+    padding: 20px;
+}
+
+div .footnav ul :hover{
+    text-decoration: underline ;
+ cursor: pointer;
+
+
+}
+div.foottext :hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 21px;
+}

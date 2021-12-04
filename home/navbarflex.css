@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+
+/* navbar */
+.main-navbar{
+ font-family: Arial, Helvetica, sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: relative;
+}
+.navicon{
+    
+    display: flex;
+    padding: 4vw;
+    width: 35vw;
+    justify-content: space-evenly;
+}
+.h-mainicon{
+    width: 5vw;
+    
+}
+.navhead li a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+}
+.navtext{
+    list-style-type: none;
+    
+}
+.navhead li{
+    text-decoration: none;
+    align-items: center;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    justify-content: space-around;
+}
+.navhead{
+display: flex;
+text-decoration: none;
+list-style-type: none;
+}
+.menuicon{
+    width: 3vw;
+}
+.hdmaintext{
+    display: flex;
+    flex-direction: column;
+}
+.menubutton{
+    width: 20px;
+}
+
+.mainvedio{
+
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.hvideo{
+    object-fit: cover;
+    width: fit-content;
+    width: 100%;
+}

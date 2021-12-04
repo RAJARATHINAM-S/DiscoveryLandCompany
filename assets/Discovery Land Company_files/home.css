@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    
+    
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+} 
+.main-container{
+    color: rgb(5, 3, 1);
+    
+    
+    /* background-color: rgb(38, 80, 119); */
+    /* height: 150vh;
+    padding: 4px;
+    width: 79%; */
+}
+.headicon{
+    width: 4vw;
+}
+.main-head{
+    
+    display: flex;
+}
+.navcontent{
+    background-color: chartreuse;
+}
+
+.nav-links{  
+   padding: 30px;
+  position: relative;
+    padding: 30px;
+    display: flex;
+}
+.highlight{
+    
+    text-align: center;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+    
+
+}
+
+.highlight:hover{
+    text-decoration: underline;
+    transition: 2s;
+    transform: scalex(2s); 
+
+}
+
+
+li{
+    float: left;
+}
+   .sidemenu{
+        margin-top: 20px;
+        margin: 20px;
+        border-radius: 0.25rem;
+        /* display: flex;
+        flex-direction: column;
+         */
+        
+    }
+    .sidemenu :hover{
+        cursor: pointer;
+
+    }
+    .icon{
+        color: rgb(248, 246, 246);
+        top: 0;
+        right: 0;
+        width: 60px;
+        padding: 10px;
+        
+    }
+    .h-mainicon{
+        display: flex;      
+        position: relative;
+        width: 43vw;
+
+    }
+    
+.h-mainicon :hover{
+    cursor: pointer;
+}
+            
+
+.text{
+    color: rgb(8, 8, 8);
+    font-style: italic;
+    position: relative;
+    top: 500px;
+right: 70vw;
+
+}
+
+ .main-video{
+     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+
+
+}
+
+.sslide{
+    position: relative;
+    top: 25cm;
+    left: 2cm;
+}
+.spara{
+    position: relative;
+    top: 26cm;
+    left: 2cm;
+}
+.boatpic{
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    top: 8cm;
+    left: 13cm;
+}
+
+
+
+.dinner{
+    position: relative;
+    top: 27cm;
+    left: 2cm;
+}
+.dinnerpic{
+    width: 10cm;
+    height: 45vh;
+}
+.c-slide-text{
+    position: relative;
+    top: 85vh;
+    left: 20vw;
+}
+.slidepic{
+    position: relative;
+    top: 90vh;
+    
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    margin: 0;
+    left: 0;
+    width: 500%;
+    animation: 30s slider infinite;
+}
+.im1{
+    width: 30vw;
+    height: 35vh;
+    float: left;
+    padding: 20px;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: -50%;
+    }
+    30%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    75%{
+        left: -225%;
+    }
+    90%{
+        left: -250%;
+    }
+    100%{
+        left: -180%;
+    }
+}
+
+.d-slide-text{
+    position: relative;
+    top: 100vh;
+    left: 10vw;
+}   
+
+.d-slide-para{
+    position: relative;
+    top: 105vh;
+    left: 10vw;
+}
+.e-slide-text{
+    position: relative;
+    top: 110vh;
+    left: 5vh;
+    display: flex;
+    left: 2cm;
+    
+}
+.e-head-text{
+    padding: 20px;
+}
+.glopepic{
+    position: relative;
+    top: 120vh;
+    overflow: hidden;
+    width: 70vw;
+    height: 100vh;
+}
+.e-darkbox{
+    position: relative;
+top: 130vh;
+
+left: 20vw;
+
+}
+.boxdark{
+    position: relative;
+    height: 75vh;
+    left: 50vw;
+    top: 20vh;
+    width: 44vw;
+    background-color: black;
+    
+}
+.e2-pic{
+    position: relative;
+    top: -64vh;
+    left: 71vw;
+    width: 20vw;
+    height: 82vh;
+}
+.e2-icon1{
+    position: relative;
+    width: 3vw;
+    left: 34vw;
+    top: -123vh;
+}
+.e2-icon2{
+    position: relative;
+    width: 3vw;
+    left: 30vw;
+    top: -100vh;
+}
+.e2-icon3{
+    position: relative;
+    width: 3vw;
+    left: 38vw;
+    top: -100vh;
+}
+.e2-icon4{
+    position: relative;
+    width: 3vw;
+    left: 34vw;
+    top: -105vh;
+}
+.e2-icon5{
+     position: relative;
+    width: 3vw;
+    left: 29vw;
+    top: -100vh;
+
+}
+.e2-icon6{
+    position: relative;
+    width: 3vw;
+    left: 29vw;
+    top: -123vh;
+
+}
+.e-text{
+    position: relative;
+    color: white;
+    left: 52vw;
+    top: -82vh;
+    font-size: 20px;
+}
+.e-head{
+    position: relative;
+    left: 52vw;
+    top: -80vh;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.e-locationicon{
+    position: relative;
+    width: 2vw;
+    left: 53vw;
+    top: -77vh;
+
+}
+.e-locationid{
+    position: relative;
+    width: 16vw;
+    left: 57vw;
+    top: -80vh;
+    color: white;
+    font-size: 12px;
+}

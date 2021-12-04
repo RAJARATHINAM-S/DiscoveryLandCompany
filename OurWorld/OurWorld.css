@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Main-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 34, 34);
+}
+.mainbar{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 23px;
+    font-size: 1.5rem;
+}
+.mainicon{
+    width: 6vh;
+    }
+.headitem{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.headitem:hover{
+    cursor: pointer;
+    text-decoration: underline ;
+    
+}
+#navicon{
+    width: 2vw;
+}
+.mainnavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.hdmaintext{
+    padding: 20px;
+}
+.navitem{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.h-navitem a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.pics{
+    color: white;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+}
+.pic{
+    width: 23vw;
+    height: 30vh;
+}
+@media  (min-width:300px) and (max-width: 600px){
+    .pics{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pic{
+        width: 45vw;
+    }
+    
+}
+#pic1{
+
+    padding: 9px;
+}
+.footermain{
+    color: white;
+    display: flex;
+
+    list-style-type: none;
+    background-color: rgb(82, 73, 82);
+}
+@media  (min-width:300px) and (max-width: 600px){
+    .footermain{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footicontent{
+        display: flex;
+        flex-direction: column;
+        
+    }
+.navitem{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0;
+    
+}
+.headitem{
+    padding: 0px;
+    align-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+#navicon{
+    display: none;
+}
+       .mainnavbar{
+           padding: 0;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       } 
+       .mainbar{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+        
+    
+
+    
+
+    
+}
+.footicontent{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 70vw;
+    
+}
+.footicontent img{
+    width: 7vh;
+    position: relative;
+    top: 3vw;
+    right: -3vw;
+    
+}
+.footnav ul li{
+    font-size: 19px;
+    list-style-type: none;
+    padding: 20px;
+}
+div.footnavtext ul li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+div.footnavtext ul li{
+    list-style-type: none;
+}
+div .footnavtext{
+    padding: 20px;
+}
+
+.lasttext{
+    color: white;
+    background-color: rgb(82, 73, 82);
+    height: 20vh;
+    padding: 20px;
+}
+div .foottext{
+    display: flex;
+    flex-direction: column;  
+    padding: 25px;
+}
+div .foottext a{
+    padding: 20px;
+}
+.navfoottext{
+    display: flex;
+    list-style-type: none;
+}
+div .footnav{
+    padding: 20px;
+}
+div .footnavtext ul li{
+    padding: 20px;
+}
+
+div .footnav ul :hover{
+    text-decoration: underline ;
+ cursor: pointer;
+
+
+}
+div.foottext :hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}

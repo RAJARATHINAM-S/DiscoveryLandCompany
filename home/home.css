@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    top: 0;
+    
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    color: white;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+} 
+.main-container{
+    color:white;
+    
+    
+    /* background-color: rgb(38, 80, 119); */
+    /* height: 150vh;
+    padding: 4px;
+    width: 79%; */
+}
+.headicon{
+    top: 2vh;
+    width: 2vw;
+    position: relative;
+    display: flex;
+    height: 4vh;
+}
+.main-head{
+    height: 7vh;
+    display: flex;
+    
+align-items: baseline;
+justify-content: space-between;
+width: 98vw;
+    
+}
+.h-headtext{
+    color: white;
+    font-size: 1.5rem;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links{  
+
+  position: relative;
+    
+
+}
+
+.highlight{
+    
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+
+}
+
+.highlight:hover{
+    text-decoration: underline;
+    transition: 2s;
+    transform: scalex(2s); 
+
+}
+
+
+li{
+    float: left;
+}
+   .sidemenu{
+        margin-top: 20px;
+        margin: 20px;
+        border-radius: 0.25rem;
+        /* display: flex;
+        flex-direction: column;
+         */
+        
+    }
+    .sidemenu :hover{
+        cursor: pointer;
+
+    }
+    .icon{
+        color: rgb(248, 246, 246);
+        top: 0;
+        right: 0;
+        width: 60px;
+        padding: 10px;
+        
+    }
+    .h-mainicon{
+        display: flex;      
+        position: relative;
+        width: 30vw;
+        align-items: center;
+
+    }
+    
+.h-mainicon :hover{
+    cursor: pointer;
+}
+            
+
+.text{
+    color: white;
+
+    position: absolute;
+    top: 42vh;
+right: 45vw;
+font-size: 60px;
+line-height: 1.5;
+width: fit-content;
+
+}
+.text-p{
+    color: white;
+    font-family: serif ;
+    
+}
+
+
+ .main-video{
+     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+}
+
+.sslide{
+    position: relative;
+    top: 25cm;
+    left: 2cm;
+    width: fit-content;
+}
+
+.spara{
+    position: relative;
+    top: 26cm;
+    left: 2cm;
+    width: fit-content;
+}
+
+.boatpic{
+    width: 35vw;
+    height: 85vh;
+    position: relative;
+    top: 8cm;
+    right: -49vw;
+    display: flex;
+}
+
+
+
+.dinner{
+    position: relative;
+    top: 27cm;
+    left: 2cm;
+    width: fit-content;
+}
+.dinnerpic{
+    width: 35vw;
+    height: 47vh;
+    position: relative;
+    display: flex;
+}
+.c-slide-text{
+   position: relative;
+    top: 70vh;
+    left: 20vw;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.slidepic{
+    position: relative;
+    top: 90vh;
+    
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    margin: 0;
+    left: 0;
+    width: 600%;
+    animation: 30s slider infinite;
+}
+.im1{
+    width: 45vw;
+    height: 96vh;
+    float: left;
+    padding: 20px;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: -50%;
+    }
+    30%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    75%{
+        left: -225%;
+    }
+    90%{
+        left: -250%;
+    }
+    100%{
+        left: -180%;
+    }
+}
+
+.d-slide-text{
+    position: relative;
+    top: 100vh;
+    left: 5vw;
+    width: fit-content;
+}   
+
+
+.d-slide-para{
+    position: relative;
+    top: 10vh;
+    left: 0vw;
+    width: fit-content;
+}
+.e-slide-text{
+    position: relative;
+    top: 13vh;
+    left: -20px;
+    display: flex;
+    
+}
+.e-head-text{
+    padding: 20px;
+}
+.glopepic{
+    position: relative;
+    top: 120vh;
+    overflow: hidden;
+    width: 70vw;
+    height: 100vh;
+}
+.e-darkbox{
+    position: relative;
+top: 130vh;
+
+left: 20vw;
+
+}
+.boxdark{
+    position: relative;
+    height: 75vh;
+    left: 50vw;
+    top: 20vh;
+    width: 44vw;
+    background-color: black;
+    
+}
+.e2-pic{
+    position: relative;
+    top: -64vh;
+    left: 71vw;
+    width: 20vw;
+    height: 82vh;
+}
+.e2-icon1{
+    position: relative;
+    width: 3vw;
+    left: 34vw;
+    top: -123vh;
+}
+.e2-icon2{
+    position: relative;
+    width: 3vw;
+    left: 30vw;
+    top: -100vh;
+}
+.e2-icon3{
+    position: relative;
+    width: 3vw;
+    left: 38vw;
+    top: -100vh;
+}
+.e2-icon4{
+    position: relative;
+    width: 3vw;
+    left: 34vw;
+    top: -105vh;
+}
+.e2-icon5{
+     position: relative;
+    width: 3vw;
+    left: 33vw;
+    top: -100vh;
+
+}
+.e2-icon6{
+    position: relative;
+    width: 3vw;
+    left: 29vw;
+    top: -123vh;
+
+}
+.e-text{
+    position: relative;
+    color: white;
+    left: 52vw;
+    top: -82vh;
+    font-size: 20px;
+}
+.e-head{
+    position: relative;
+    left: 52vw;
+    top: -80vh;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.e-locationicon{
+    position: relative;
+    width: 2vw;
+    left: 53vw;
+    top: -77vh;
+
+}
+.e-locationid{
+    position: relative;
+    width: 16vw;
+    left: 57vw;
+    top: -80vh;
+    color: white;
+    font-size: 12px;
+}
+.h-fig{
+    position: absolute;
+}
+.h-footmain{
+    position: relative;
+    top: 112vh;
+    
+}
+
+.footicon{
+    width: 100vw;
+    align-items: baseline;
+    justify-content: space-between;
+    
+    display: flex;
+}
+
+.nav-icon{
+    width: 2vw;
+}
+.footicon img{
+    width: 8vh;
+    position: relative;
+    top: 6vh;
+    left: 2vw;
+}
+.footermain{
+    justify-content: space-between;
+}
+@media  (min-width:300px) and (max-width: 600px){
+
+    .navfoottext {
+        display: flex;
+        list-style-type: none;
+    }
+    
+.boatpic {
+    width: 35vw;
+    height: 85vh;
+    position: relative;
+    top: 8cm;
+    right: -60vw;
+    display: flex;
+}
+.c-slide-text{
+    top: 80vh;
+}
+.e-head{
+    font-size: 19px;
+}
+.nav-content{
+    display: none;
+}
+.text{
+    right: 0px;
+}
+}
